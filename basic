@@ -1,0 +1,27 @@
+Basic functionality
+
+1. Play music: The most important feature of the Internet Radio Player is to 
+play live streaming audio from existing online radio stations. This implies the 
+ability to play/pause/stop the music at any time.
+
+2. User-Friendly Radio-Like interface: The user should be able to easily access 
+all the features of the website. For example using buttons for play/pause/stop
+buttons, the ability to adjust the volume using a volume slider etc.
+
+3. Selection of Stations: The user should be able to choose from a variety of 
+stations; listed in categories.
+
+4. Register/Login: The user will have the possibility to log into the system.
+   All data will be stored in a database.
+
+5. Popularity: The stations will have a popularity bar indicating how popular to 
+the rest of the users are depending on the number of clicks and time spend on 
+each station.
+
+6. Recommedations: Once the user logs in to the system, recommendations about
+other stations will be displayed based on his/her preferences and what other 
+users, who also listen to that station, prefer to listen.
+
+7. Display/Manipulate meta-data for stations: The Internet Radio Player should 
+provide information about the station that is currently playing, like what song 
+currently playing.
