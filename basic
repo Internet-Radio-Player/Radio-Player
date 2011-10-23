@@ -12,10 +12,10 @@ buttons, the ability to adjust the volume using a volume slider etc.
 stations; listed in categories.
 
 4. Register/Login: The user will have the possibility to log into the system.
-   All data will be stored in a database.
+All data will be stored in a database.
 
 5. Popularity: The stations will have a popularity bar indicating how popular to 
-the rest of the users are depending on the number of clicks and time spend on 
+the rest of the users are, depending on the number of clicks and time spend on 
 each station.
 
 6. Recommedations: Once the user logs in to the system, recommendations about
@@ -23,5 +23,33 @@ other stations will be displayed based on his/her preferences and what other
 users, who also listen to that station, prefer to listen.
 
 7. Display/Manipulate meta-data for stations: The Internet Radio Player should 
-provide information about the station that is currently playing, like what song 
+provide information about the station that is currently playing, like what song is 
 currently playing.
+
+8. Cross Browser Compatibility: The users should be able to use the browser of their 
+choice. The Internet Radio will be compatible with Google Chrome, Mozilla Firefox,
+Opera and Firefox. 
+
+
+Extensions: 
+
+1. Archiving: The user will be able to record up to 2 hours of audio from one station 
+and listen to it up to 2 days later.
+
+2. Facebook: Once the user logs into the system he will be linked with his/her facebook 
+account and therefore be able to post on his facebook wall.
+
+3. Ratings: The user will be able to rate the stations he/she listens to. This will give us 
+feedback from the users in order to improve our choices of stations given to them. 
+
+4. Crawling: A web crawler will visits a list of URLs and will identify radio stations for the 
+user, given a specific search criteria. The crawler will return a list of URLs to the user.
+
+5. Smartphone: The Internet Radio Player could be extended to be a smartphone application as well,
+working on Android.
+
+6. Broadcasting own show: The user could have the possibility of broadcasting his/her own show.
+This includes being able to upload songs which be stored in our database and creating a link that
+other users will use to listen to that radio. The user will have a limited amount of space.
+
+
