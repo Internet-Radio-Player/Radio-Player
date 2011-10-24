@@ -11,22 +11,25 @@ buttons, the ability to adjust the volume using a volume slider etc.
 3. Selection of Stations: The user should be able to choose from a variety of 
 stations; listed in categories.
 
-4. Register/Login: The user will have the possibility to log into the system.
+4. Pop up: When a radio station is selected, a pop up will appear with the 
+selected station.
+
+5. Register/Login: The user will have the possibility to log into the system.
 All data will be stored in a database.
 
-5. Popularity: The stations will have a popularity bar indicating how popular to 
+6. Popularity: The stations will have a popularity bar indicating how popular to 
 the rest of the users are, depending on the number of clicks and time spend on 
 each station.
 
-6. Recommedations: Once the user logs in to the system, recommendations about
+7. Recommedations: Once the user logs in to the system, recommendations about
 other stations will be displayed based on his/her preferences and what other 
 users, who also listen to that station, prefer to listen.
 
-7. Display/Manipulate meta-data for stations: The Internet Radio Player should 
+8. Display/Manipulate meta-data for stations: The Internet Radio Player should 
 provide information about the station that is currently playing, like what song is 
 currently playing.
 
-8. Cross Browser Compatibility: The users should be able to use the browser of their 
+9. Cross Browser Compatibility: The users should be able to use the browser of their 
 choice. The Internet Radio will be compatible with Google Chrome, Mozilla Firefox,
 Opera and Firefox. 
 
