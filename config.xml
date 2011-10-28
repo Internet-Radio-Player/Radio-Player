@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+        Radio Player Widget
+        http://github.com/trygve-lie/widget-radio-player
+        http://www.trygve-lie.com/
+
+        Copyright (c) 2010 Trygve Lie
+        Dual licensed under the MIT and GPL licenses.
+        - http://www.opensource.org/licenses/mit-license.php
+        - http://www.gnu.org/copyleft/gpl.html
+-->
+<widget defaultmode="application" network="public private">
+    <widgetname>Radio Player</widgetname>
+    <description>Radio Player</description>
+    <width>300</width>
+    <height>120</height>
+    <icon>gfx/icon/icon_128.png</icon>
+    <icon>gfx/icon/icon_64.png</icon>
+    <icon>gfx/icon/icon_32.png</icon>
+    <icon>gfx/icon/icon_16.png</icon>
+    <author>
+        <name>Trygve Lie</name>
+        <email>post@trygve-lie.com</email>
+        <link>http://www.trygve-lie.com/</link>
+    </author>
+    <id>
+        <host>radio.trygve-lie.com</host>
+        <name>radio-player</name>
+        <revised>2010-07-18</revised>
+    </id>
+</widget>

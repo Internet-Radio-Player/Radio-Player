@@ -1,0 +1,5 @@
+[15-Jun-2011 03:24:13] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/socceric/public_html/ajax/notifications.php on line 8
+[15-Jun-2011 03:24:18] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/socceric/public_html/ajax/notifications.php on line 8
+[15-Jun-2011 03:24:23] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/socceric/public_html/ajax/notifications.php on line 8
+[15-Jun-2011 03:24:28] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/socceric/public_html/ajax/notifications.php on line 8
+[15-Jun-2011 03:24:33] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/socceric/public_html/ajax/notifications.php on line 8
