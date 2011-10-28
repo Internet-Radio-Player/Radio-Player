@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This widget are packaged to support several widget systems.
 
 First of all; the player is mainly intended to follow the W3C Widget specification.
@@ -21,3 +22,8 @@ Files belonging to the Apple Desktop Widget specification - http://developer.app
 - Default.png
 - Icon.png
 - Info.plist
+=======
+Hello!!!
+another attempt...
+kyriakos
+>>>>>>> cc11c3196be0eccc0a708548915753b859b78198
