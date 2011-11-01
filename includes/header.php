@@ -4,7 +4,7 @@
 	<link rel="stylesheet" type="text/css" href="css/forms.css" />
 	<link rel="stylesheet" type="text/css" href="css/grid.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
-  <link href="css/default.css" rel="stylesheet">
+<!--  <link href="css/default.css" rel="stylesheet"> -->
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=UnifrakturCook:bold' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="js/jquery.backstretch.js"></script>
@@ -51,4 +51,11 @@
 			$('#error_login').hide();
 		})
 		
+		$('#sports_link').live('click',function(){
+		  $('#sports_list').fadeToggle() ;
+		})
+		
+		$('#news_link').live('click',function(){
+		  $('#news_list').fadeToggle() ;
+		})
 </script> 

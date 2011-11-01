@@ -2,7 +2,6 @@
 <!-- Codes by Quackit.com -->
 <script type="text/javascript">
 // Popup window code
-var station
 function newPopup(url) {
 	popupWindow = window.open(url,'popUpWindow','height=500,width=600,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
 }
@@ -12,22 +11,24 @@ function newPopup(url) {
 <?php include('includes/header.php');?>
 </head>   
 <body>
-<div class="">
-	<div style="top:20px" class="left grid_4 text_white"><h1>Welcome to JB Radio Player</h1></div>
+<div class="container_10 padding all_curves box_shadow min_height" id="box">
+	<div class="left grid_4 text_white"><h1>Welcome to JB Radio Player</h1></div>
+
   <?php 
   if (isset($_SESSION[id])){?>
-      <div style="right:20px;top:20px;position:absolute" class="right grid_4 text_right text_white">
+      <div class="right grid_4 text_right text_white">
 		      <div class="right grid_1 text_right">
 		      <form method="post" action="logout.php">
 			      <button class="button button-red bold" type="submit" id="logout">Logout</button>
 		      </form> 
 		      </div>
       </div>
-      <div style="right:40px;top:70px;position:absolute" class="left grid_2 padding all_curves">
-        <div class="text_center h2b"><b>Recommendations</b></div><br>
+      <div class="clear margin_bottom"></div>
+      <div class="right ">
+        <h1 class="text_green">Recommendations</b></h1>
         <a href="JavaScript:newPopup('http://www.doc.ic.ac.uk/project/2011/362/g1136226/web/popup.php?link=http://fm999.info:8080/radio.ogg','Radioe','height=200,width=150');">
           <img src="https://market.android.com/publish/images/PAAAAFU5e_aGviKzMqSXrN3MCJ_meSbQUucSngyjnapfgiX17exF5tL07OEHvG-pc4l8SJXabLApX3Dkyp67qRU538AAzfqVaZuw_kx5yMZ9HoTfd-IK08heY3Mh.png" 
-              width="50" height="40" border="2" style="border:2px solid black;" alt="nrk station" />
+              width="50" height="40" border="0" style="border:none;" alt="nrk station" />
         </a>
       </div>   
   <?php
@@ -35,8 +36,8 @@ function newPopup(url) {
   else{?>
   
   <!--Register --> 
-  <div style="top:20px;right:20px;position:absolute" class="">
-	<div id="box" class="text_black padding left_curves box_shadow grid_2 right">
+  <div class="right">
+	<div id="box" class="text_black padding right_curves box_shadow grid_2 right">
 	<div class="text_center margin_top_10 text_white bold"><h3>Register</h3></div>
 	<div class="hrimg margin_top margin_bottom"></div>
 	<form action="register.php" method="post" name="regForm" id="regForm">
@@ -69,12 +70,12 @@ function newPopup(url) {
 			<div class="text_red font_16" id="error"><?php echo $error ;?></div>
 			<div class="">
 			<div class="hrimg margin_top margin_bottom"></div>
-			<button class="button button-gray bold" type="submit" id="register">Register Now!</button>
-		</div>				  
-	</div> 	
-	</form>	 
+			<button class="button button-gray bold" type="submit" id="register">Register Now!</button></div>				  
+	    </div> 	
+	</form>	
+  </div> 
 <!-- Login Box -->
-	<div id="box"class="text_black padding right_curves box_shadow grid_2 right">
+	<div id="box" class="text_black padding left_curves box_shadow grid_2 right">
 		<div class="text_center margin_top_10 text_white bold"><h3>Login</h3></div>
 		<div class="hrimg margin_top margin_bottom"></div>
 		<form action="login.php" method="post" name="logForm" id="logForm">
@@ -112,32 +113,42 @@ function newPopup(url) {
 				</form>
 				<div class="clear"></div>
 				<div class="text_red font_16" id="error_login"><?php echo $error_login;?></div>	
-	</div> 
-</div>
+	  </div> 
+
 <?php
 }
 ?>
-    <div style="top:100px;left:10px;position:absolute" class="left grid_2 padding all_curves">
-      <div class="text_center h2b"><b>Sports</b></div><br>
-      <a href="JavaScript:newPopup('http://www.doc.ic.ac.uk/project/2011/362/g1136226/web/popup.php?link=http://fm999.info:8080/radio.ogg','Radioe','height=200,width=150');">
-        <img src="https://market.android.com/publish/images/PAAAAFU5e_aGviKzMqSXrN3MCJ_meSbQUucSngyjnapfgiX17exF5tL07OEHvG-pc4l8SJXabLApX3Dkyp67qRU538AAzfqVaZuw_kx5yMZ9HoTfd-IK08heY3Mh.png" 
-            width="50" height="40" border="2" style="border:2px solid black;" alt="nrk station" />
-      </a>
-    </div> 
-    <div style="top:100px;left:200px;position:absolute" class="left grid_2 padding all_curves">
-      <div class="text_center h2b"><b>News</b></div><br>
-      <a href="JavaScript:newPopup('http://www.doc.ic.ac.uk/project/2011/362/g1136226/web/popup.php?link=http://fm999.info:8080/radio.ogg','Radioe','height=200,width=150');">
-        <img src="https://market.android.com/publish/images/PAAAAFU5e_aGviKzMqSXrN3MCJ_meSbQUucSngyjnapfgiX17exF5tL07OEHvG-pc4l8SJXabLApX3Dkyp67qRU538AAzfqVaZuw_kx5yMZ9HoTfd-IK08heY3Mh.png" 
-            width="50" height="40" border="2" style="border:2px solid black;" alt="nrk station" />
-      </a>
-    </div>
-    <div style="top:100px;left:390px;position:absolute"  class="left grid_2 padding all_curves">
-      <div class="text_center h2b"><b>Music</b></div><br>
-      <a href="JavaScript:newPopup('http://www.doc.ic.ac.uk/project/2011/362/g1136226/web/popup.php?link=http://fm999.info:8080/radio.ogg','Radioe','height=200,width=150');">
-        <img src="https://market.android.com/publish/images/PAAAAFU5e_aGviKzMqSXrN3MCJ_meSbQUucSngyjnapfgiX17exF5tL07OEHvG-pc4l8SJXabLApX3Dkyp67qRU538AAzfqVaZuw_kx5yMZ9HoTfd-IK08heY3Mh.png" 
-            width="50" height="40" border="2" style="border:2px solid black;" alt="nrk station" />
-      </a>
-    </div>
+  <div class="clear margin_bottom"></div>
+  <h1 class="text_green">Sports</h1>
+<div class="clear margin_bottom"></div>
+  <?php
+	$q = pg_query("SELECT * FROM stations WHERE category='sports'");
+	while($r = pg_fetch_array($q)){
+	?>
+	<div class="left padding">
+		<a href="JavaScript:newPopup('http://www.doc.ic.ac.uk/project/2011/362/g1136226/web/popup.php?link=<?php echo $r[url];?>','Radioe','height=200,width=150');">
+        <img src="images/<?php echo $r[image];?>" width="50" height="40" border="0" style="border:none;" alt="nrk station"/>
+    </a>	
+	</div>
+	<?php
+	} 
+	?>
+	<div class="clear margin_bottom"></div>
+	<h1 class="text_green">News</h1>
+<div class="clear margin_bottom"></div>
+  <?php
+	$q = pg_query("SELECT * FROM stations WHERE category='news'");
+	while($r = pg_fetch_array($q)){
+	?>
+	<div class="left padding">
+		<a href="JavaScript:newPopup('http://www.doc.ic.ac.uk/project/2011/362/g1136226/web/popup.php?link=<?php echo $r[url];?>','Radioe','height=200,width=150');">
+        <img src="images/<?php echo $r[image];?>" width="50" height="40" border="0" style="border:none;" alt="nrk station"/></a>	
+	</div>
+	<?php
+	} 
+	?>
+	<div class="clear margin_bottom"></div>
+	<div class="clear"></div>
 
 <div class="font_12 text_white bold text_italic" id="footer"><h4> &copy; Radio Player | 2011</h4></div>	
 </div>

@@ -24,6 +24,7 @@
 .grid_8,
 .grid_8b,
 .grid_9,
+.grid_9a,
 .grid_9b,
 .grid_10,
 .grid_10b,
@@ -36,8 +37,9 @@
 .container_5 {margin-left: auto;margin-right: auto;width: 500px;}
 .container_6 {margin-left: auto;margin-right: auto;width: 600px;}
 .container_8 {margin-left: auto;margin-right: auto;width: 800px;}
+.container_9b {margin-left: auto;margin-right: auto;width: 940px;}
 .container_9 {margin-left: auto;margin-right: auto;width: 960px;}
-.container_10 {margin-left: auto;margin-right: auto;width: 1200px;}
+.container_10 {margin-left: auto;margin-right: auto;width: 1200px;height: 750px;}
 .grid_1{width:40px;}
 .grid_b{width:50px;}
 .grid_c{width:60px;}
@@ -70,7 +72,7 @@
 .grid_8 {width:800px;}
 .grid_8b {width:850px;}
 .grid_9 {width:900px;}
-.grid_9b{width:950px;}
+.grid_9a {width:920px;}
 .grid_10 {width:1000px;}
 .grid_10b {width:1050px;}
 .grid_11 {width:1100px;}

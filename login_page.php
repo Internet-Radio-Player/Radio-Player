@@ -96,11 +96,8 @@ function newPopup(url) {
 				</form>
 				<div class="clear"></div>
 				<div class="text_red font_16" id="error_login"><?php echo $error_login;?></div>
-			
-	</div> 
-
-</div>
-    </div><br><br><br><br>
+	  </div> 
+  </div>
     <div class="left grid_2 padding all_curves margin_left">
       <div class="text_center h2b"><b>Sports</b></div><br>
       <a href="JavaScript:newPopup('http://www.doc.ic.ac.uk/project/2011/362/g1136226/web/popup.php');">
