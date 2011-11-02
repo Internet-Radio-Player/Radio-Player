@@ -118,30 +118,37 @@ function newPopup(url) {
 <?php
 }
 ?>
-	<?php
-	$p = pg_query("SELECT DISTINCT category FROM stations");
-	while($s = pg_fetch_array($p)){
-	$cat=$s[category];
-	?>
-	<div class="clear margin_bottom"></div>
-  	<h1 class="text_green padding"><?php echo $s[category];?></h1>
-	<div class="clear margin_bottom"></div>
-  	<?php
-	$q = pg_query("SELECT * FROM stations WHERE category='$cat'");
+  <div class="clear margin_bottom"></div>
+  <h1 class="text_green">Sports</h1>
+<div class="clear margin_bottom"></div>
+  <?php
+	$q = pg_query("SELECT * FROM stations WHERE category='sports'");
 	while($r = pg_fetch_array($q)){
 	?>
 	<div class="left padding">
 		<a href="JavaScript:newPopup('http://www.doc.ic.ac.uk/project/2011/362/g1136226/web/popup.php?link=<?php echo $r[url];?>','Radioe','height=200,width=150');">
-        <img src="images/<?php echo $r[image_url];?>" width="50" height="40" border="0" style="border:none;" alt="nrk station"/>
-    	</a>	
+        <img src="images/<?php echo $r[image];?>" width="50" height="40" border="0" style="border:none;" alt="nrk station"/>
+    </a>	
 	</div>
 	<?php
 	} 
 	?>
+	<div class="clear margin_bottom"></div>
+	<h1 class="text_green">News</h1>
+<div class="clear margin_bottom"></div>
+  <?php
+	$q = pg_query("SELECT * FROM stations WHERE category='news'");
+	while($r = pg_fetch_array($q)){
+	?>
+	<div class="left padding">
+		<a href="JavaScript:newPopup('http://www.doc.ic.ac.uk/project/2011/362/g1136226/web/popup.php?link=<?php echo $r[url];?>','Radioe','height=200,width=150');">
+        <img src="images/<?php echo $r[image];?>" width="50" height="40" border="0" style="border:none;" alt="nrk station"/></a>	
+	</div>
 	<?php
 	} 
 	?>
-
+	<div class="clear margin_bottom"></div>
+	<div class="clear"></div>
 
 <div class="font_12 text_white bold text_italic" id="footer"><h4> &copy; Radio Player | 2011</h4></div>	
 </div>

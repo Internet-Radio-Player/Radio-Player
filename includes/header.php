@@ -58,4 +58,9 @@
 		$('#news_link').live('click',function(){
 		  $('#news_list').fadeToggle() ;
 		})
+
+		$('#music_link').live('click',function(){
+		  $('#music_list').fadeToggle() ;
+		})
+
 </script> 
